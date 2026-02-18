@@ -1,5 +1,6 @@
 import MatrixRainingCode from "../Components/MatrixRainingCode";
 import { Navbar } from "../Components/Navbar";
+import {HeroSection} from "../Components/HeroSection";
 
 export const Home = () => {
     return (
@@ -12,8 +13,9 @@ export const Home = () => {
        <Navbar />
        
        {/* Contenu du site */}
-        <div className="relative z-10 container mx-auto pt-20">
-        </div>
+        <main>
+            <HeroSection />
+        </main>
 
        {/* Footer */}
 
