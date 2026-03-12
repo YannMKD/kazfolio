@@ -6,7 +6,7 @@ export const AboutSection = () => {
     <section id="about" className="py-24 px-24 relative">
         {""}
         <div  className="container mx-auto max-w-10xl">
-            <h2 className="text-3xl font-bold mb-12 text-center">
+            <h2 className="text-4xl font-bold mb-12 text-center">
             <span className ="text-glow text-primary">À propos de</span> moi
             </h2>
             

@@ -7,7 +7,7 @@ const navItems = [
   { name: "Profil", href: "#about" },
   { name: "Formations", href: "#formations" },
   { name: "Expériences", href: "#xp" },
-  { name: "Projets", href: "#projects" },
+  { name: "Projets", href: "#projets" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
 ];
@@ -44,12 +44,12 @@ export const Navbar = () => {
         </a>
 
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 font-semibold">
           {navItems.map((item, key) => (
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>

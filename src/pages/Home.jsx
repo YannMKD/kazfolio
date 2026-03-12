@@ -4,6 +4,7 @@ import { AboutSection } from "../Components/AboutSection";
 import { Formations } from "../Components/FormationsSection";
 import MatrixRainingCode from "../Components/MatrixRainingCode";
 import { Experiences } from "../Components/ExeperiencesSection";
+import { ProjetsSection } from "../Components/ProjetsSection";
 
 export const Home = () => {
     return (
@@ -19,6 +20,7 @@ export const Home = () => {
             <Formations />
             <MatrixRainingCode /> 
             <Experiences />
+            <ProjetsSection />
         </main>
 
        {/* Footer */}
