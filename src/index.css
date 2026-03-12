@@ -39,7 +39,7 @@
     --background: 222 47% 2%; 
     --foreground: 213 31% 91%;
 
-    --card: 222 47% 8%;
+    --card: 0 0% 0%;
 
     --primary: 120 100% 50%;
     --primary-foreground: 213 31% 91%;
@@ -101,7 +101,7 @@
 }
 
 @utility card-hover {
-  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(34,197,94,0.4)];
 }
 
 @utility gradient-border {
@@ -112,7 +112,11 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+  @apply px-6 py-2 rounded-full bg-black text-primary-foreground font-medium 
+         transition-all duration-300 border-2 border-primary/30 shadow-[0_0_10px_rgba(34,197,94,0.4)] hover:shadow-[0_0_10px_rgba(34,197,94,0.6)]
          hover:scale-105 active:scale-95;
+}
+
+@utility icon-glow {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
 }

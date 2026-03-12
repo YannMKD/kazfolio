@@ -3,10 +3,12 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navItems = [
-  { name: "Accueil", href: "#home" },
+  { name: "Accueil", href: "#hero" },
+  { name: "Profil", href: "#about" },
   { name: "Formations", href: "#formations" },
-  { name: "Projets", href: "#projects" },
   { name: "Expériences", href: "#xp" },
+  { name: "Projets", href: "#projects" },
+  { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
 ];
 
