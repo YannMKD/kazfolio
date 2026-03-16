@@ -5,6 +5,9 @@ import { Formations } from "../Components/FormationsSection";
 import MatrixRainingCode from "../Components/MatrixRainingCode";
 import { Experiences } from "../Components/ExeperiencesSection";
 import { ProjetsSection } from "../Components/ProjetsSection";
+import { SkillsSection } from "../Components/SkillsSection";
+import { Contact } from "lucide-react";
+import { ContactSection } from "../Components/ContactSection";
 
 export const Home = () => {
     return (
@@ -21,6 +24,8 @@ export const Home = () => {
             <MatrixRainingCode /> 
             <Experiences />
             <ProjetsSection />
+            <SkillsSection />
+            <ContactSection />
         </main>
 
        {/* Footer */}

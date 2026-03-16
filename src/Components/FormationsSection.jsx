@@ -19,7 +19,7 @@ const formations = [
 
 export const Formations = () => {
   return (
-    <section id="formations" className="py-20 px-6 bg-transprent relative">
+    <section id="formations" className="py-20 px-6 relative">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl font-bold mb-16 text-center text-white">
           Mes <span className="text-primary text-glow">Formations</span>
@@ -43,7 +43,7 @@ export const Formations = () => {
 
                 {/* Carte de formation */}
                 <div className="w-full md:w-1/2 px-8">
-                  <div className="p-5 space-y-6 gradient-border card-hover opacity-90 shadow-[0_0_15px_rgba(34,197,94,0.4)]">
+                  <div className="p-5 space-y-6 gradient-border card-hover opacity-90 shadow-[0_0_15px_rgba(34,197,94,0.4)] transition-all"> 
                     <h3 className="text-xl font-bold text-primary text-glow mb-1">{item.title}</h3>
                     <p className="text-sm text-primary/80 mb-2 font-mono">{item.date}</p>
                     <p className="text-gray-400 text-sm mb-4 flex items-center">
@@ -55,7 +55,7 @@ export const Formations = () => {
                     
                     <div className="flex flex-wrap gap-2">
                       {item.notions.map((notion, nIndex) => (
-                        <span key={nIndex} className="text-[10px] uppercase tracking-wider px-2 py-1 rounded border border-primary/30 text-primary/90 bg-primary/5">
+                        <span key={nIndex} className="text-[10px] uppercase tracking-wider px-2 py-1 rounded border border-primary/30 text-primary/90 bg-primary/5 shadow-[0_0_10px_rgba(34,197,94,0.4)] hover:border-primary/60 hover:shadow-[0_0_20px_rgba(34,197,94,0.6)] transition-all duration-500">
                           {notion}
                         </span>
                       ))}

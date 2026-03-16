@@ -72,7 +72,7 @@ export const Experiences = () => {
                     
                     <div className="flex flex-wrap gap-2 mt-auto">
                       {exp.skills.map((skill, sIndex) => (
-                        <span key={sIndex} className="text-[10px] uppercase tracking-wider px-2 py-1 rounded border border-primary/30 text-primary/90 bg-primary/5">
+                        <span key={sIndex} className="text-[10px] uppercase tracking-wider px-2 py-1 rounded border border-primary/30 text-primary/90 bg-primary/5 shadow-[0_0_10px_rgba(34,197,94,0.4)] hover:border-primary/60 hover:shadow-[0_0_20px_rgba(34,197,94,0.6)] transition-all duration-500">
                           {skill}
                         </span>
                       ))}
