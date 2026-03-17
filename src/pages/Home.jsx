@@ -1,13 +1,13 @@
-import { Navbar } from "../Components/Navbar";
-import {HeroSection} from "../Components/HeroSection";
-import { AboutSection } from "../Components/AboutSection";
-import { Formations } from "../Components/FormationsSection";
-import MatrixRainingCode from "../Components/MatrixRainingCode";
-import { Experiences } from "../Components/ExeperiencesSection";
-import { ProjetsSection } from "../Components/ProjetsSection";
-import { SkillsSection } from "../Components/SkillsSection";
+import { Navbar } from "../components/Navbar";
+import {HeroSection} from "../components/HeroSection";
+import { AboutSection } from "../components/AboutSection";
+import { Formations } from "../components/FormationsSection";
+import MatrixRainingCode from "../components/MatrixRainingCode";
+import { Experiences } from "../components/ExeperiencesSection";
+import { ProjetsSection } from "../components/ProjetsSection";
+import { SkillsSection } from "../components/SkillsSection";
 import { Contact } from "lucide-react";
-import { ContactSection } from "../Components/ContactSection";
+import { ContactSection } from "../components/ContactSection";
 
 export const Home = () => {
     return (
