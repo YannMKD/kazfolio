@@ -1,12 +1,18 @@
 import { Description } from "@radix-ui/react-toast";
 import { GithubIcon } from "./GithubIcon";
+import portfolioimg from "../assets/projets-img/portfolio.png";
+import trackstarimg from "../assets/projets-img/TRACKSTAR.png";
+import python_thalesimg from "../assets/projets-img/python_thales.jpg";
+import USPNimg from "../assets/projets-img/USPN.png";
+import nuit_info2024img from "../assets/projets-img/nuit_info2024.png";
+
 
 const projets = [
     {
         id: 1,
         title:"Portfolio",
         description:"Un portfolio personnel pour présenter mes compétences, mes projets et mon parcours professionnel de manière attrayante et interactive.",
-        image:"src/assets/projets-img/portfolio.png",
+        image: portfolioimg,
         tags:["React", "Tailwind CSS", "JavaScript"],
         githubUrl:"https://github.com/YannMKD/kazfolio.git",
     },
@@ -15,7 +21,7 @@ const projets = [
         id: 2,
         title:"Trackstar",
         description:"Application mobile de recommandation musicale basée sur un système de swipe, qui apprend les préférences de l’utilisateur et génère automatiquement des playlists personnalisées.",
-        image:"src/assets/projets-img/TRACKSTAR.png",
+        image: trackstarimg,
         tags:["Flutter", "Dart", "Python","Sqlite"],
         githubUrl:"https://github.com/YannMKD/sae-but3-eco-mobile.git",
     },
@@ -24,7 +30,7 @@ const projets = [
         id: 3,
         title:"Acquisition automatique de données 6G ",
         description:"Application d’analyse de brevets 6G automatisant la collecte, la structuration (CSV/Excel) et la visualisation des données dans un dashboard interactif.",
-        image:"src/assets/projets-img/python_thales.jpg",
+        image: python_thalesimg,
         tags:["Python", "Streamlit","Klaxoon","Google collab"],
         githubUrl:"https://github.com/YannMKD/SAE_Acquisition_Thales", 
     },
@@ -33,7 +39,7 @@ const projets = [
         id: 4,
         title: "Enquête « Devenir des étudiants » (HCERES)",
         description: "Projet d’enquête mené en trinôme : conception et diffusion d’un questionnaire auprès des diplômés du BUT Informatique, puis analyse statistique des réponses avec Python (Pandas, Matplotlib) pour restitution au HCERES.",
-        image: "src/assets/projets-img/USPN.png",
+        image: USPNimg,
         tags: ["Python", "Pandas", "Matplotlib", "Analyse de données"],
         githubUrl: "#",
     },
@@ -42,7 +48,7 @@ const projets = [
         id: 5,
         title: "Youcean (Nuit de l’Info 2024)",
         description: "Application éducative collaborative créée lors de la Nuit de l’Info 2024, illustrant les liens entre le corps humain et l’océan pour sensibiliser à la préservation marine.",
-        image: "src/assets/projets-img/nuit_info2024.png",
+        image: nuit_info2024img,
         tags: ["HTML", "CSS", "JavaScript", "Git"],
         githubUrl: "#",
     },
