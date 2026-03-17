@@ -2,18 +2,25 @@
 
 const formations = [
   {
-    title: "Master Informatique",
-    date: "Septembre 2024 - En cours",
-    location: "Université de Bretagne Occidentale",
-    description: "Spécialisation en Technologie de l'Information et Ingénierie Logiciel.",
-    notions: ["Algorithme", "Architecture MVC", "Gestion de projet Agile"],
+    title: "BUT 3 Informatique",
+    date: "2025 - En cours",
+    location: "IUT de Villetaneuse - Université Sorbonne Paris Nord",
+    description: "Parcours Réalisation d'applications : Conception, Développement, Validation.",
+    notions: ["Conception logicielle", "Développement Fullstack", "Tests & Validation"],
   },
   {
-    title: "Licence Informatique",
-    date: "Septembre 2020 - Juin 2024",
-    location: "UBO - UFR Sciences et Techniques, Brest",
-    description: "Formation généraliste en informatique et systèmes.",
-    notions: ["Langage de programmation", "Fonctionnement d'un OS", "Réseaux"],
+    title: "BUT 2 Technologie de l'Information",
+    date: "2024 - 2025",
+    location: "IUT de Villetaneuse - Université Sorbonne Paris Nord",
+    description: "Parcours Informatique et Science des Données.",
+    notions: ["Analyse de données", "Bases de données", "Statistiques","Développement web"],
+  },
+  {
+    title: "CPGE Physique-Chimie",
+    date: "2020 - 2022",
+    location: "Lycée Gustave Monod - Enghien-les-Bains",
+    description: "Classes préparatoires aux grandes écoles (Filière PCSI/PC).",
+    notions: ["Mathématiques", "Physique", "Chimie"],
   }
 ];
 

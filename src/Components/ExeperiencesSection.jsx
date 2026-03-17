@@ -2,22 +2,31 @@
 
 const experiences = [
   {
-    title: "Stage en Robotique et IA",
-    company: "Nom de l'entreprise",
-    type: "STAGE", // La mention qui ressort
-    date: "Avril 2024 - Juin 2024",
-    location: "Paris, France",
-    description: "Développement d'algorithmes de navigation autonome et intégration de capteurs lidars sur des prototypes mobiles.",
-    skills: ["Python", "ROS2", "C++", "IA"],
+    title: "Employé de Caisse",
+    company: "Carrefour",
+    type: "JOB", // Badge qui s'affichera en haut à gauche
+    date: "Depuis Juillet 2025",
+    location: "Paris (75017), France",
+    description: "Accueil, encaissement des clients et gestion de la caisse. Optimisation du flux client en période de forte affluence.",
+    skills: ["Relation Client", "Gestion de Caisse"],
   },
   {
-    title: "Développeur Fullstack",
-    company: "Freelance / Projet Perso",
-    type: "PROJET",
-    date: "2023 - 2024",
-    location: "Remote",
-    description: "Conception et réalisation d'une application de gestion de stock avec dashboard en temps réel.",
-    skills: ["React", "Node.js", "MongoDB", "Tailwind"],
+    title: "Stage en développement Fullstack",
+    company: "E-petitpas.pro",
+    type: "STAGE",
+    date: "Juillet 2025 - Août 2025",
+    location: "Argenteuil (95018), France",
+    description: "Implémentation de fonctionnalités (front et back) pour une plateforme e-learning. Travail sur l'automatisation des tests et des processus de déploiement.",
+    skills: ["React", "Node.js", "CI/CD", "Testing"],
+  },
+  {
+    title: "Manutentionnaire",
+    company: "Heppner",
+    type: "JOB",
+    date: "Été 2024",
+    location: "Saint-Ouen-l'Aumône (95310), France",
+    description: "Logistique - Emballage et filmage de matériel stratégique destiné aux Jeux Olympiques et Paralympiques de Paris 2024.",
+    skills: ["Logistique", "Organisation", "Travail d'équipe"],
   }
 ];
 

@@ -32,7 +32,7 @@ export const AboutSection = () => {
                 {/* droite : texte */}
                 <div className="space-y-6 gradient-border card-hover opacity-90 shadow-[0_0_15px_rgba(34,197,94,0.4)] ">
                     <p className="text-xl font-semibold p-5 text-justify">
-                        Passionné depuis mon plus jeune âge par l'informatique, j'ai toujours été fasciné par la manière dont les algorithmes et les systèmes informatiques peuvent résoudre des problèmes complexes. Actuellement étudiant en 3e année de BUT Informatique, je me spécialise dans le développement logiciel, l'algorithmie et les méthodes d'automatisation. Je suis constamment à la recherche de nouvelles opportunités pour appliquer mes compétences et approfondir mes connaissances, notamment à travers un stage de 14 à 16 semaines qui me permettra de contribuer à des projets innovants tout en continuant à apprendre et à évoluer dans le domaine de l'informatique.    
+                        Passionné par l'algorithmie et la résolution de problèmes, j'ai eu la chance de forger ma rigueur en CPGE avant de trouver ma voie dans l'informatique. Actuellement en troisième année, j'attache une importance particulière à la qualité du code, tout en m'intéressant de plus en plus à la sécurisation des architectures Cloud pour bâtir des systèmes robustes de bout en bout. Mon objectif : intégrer un cycle ingénieur pour me spécialiser dans les nouvelles technologies de l'IA et de la Data. Investi et adaptable, je recherche un stage de fin d'études me permettant de contribuer à des projets innovants tout en continuant à progresser sur ces enjeux techniques.    
                     </p>
                 </div>
             </div>
