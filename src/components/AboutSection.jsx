@@ -1,5 +1,5 @@
 import Photo from "../assets/Photo-Pro.JPG";
-import Cv from "../assets/CV_YANN_DIARRASSOUBA.pdf";
+import Cv from "../assets/CV_YANN_DIARRASSOUBA_STAGE.pdf";
 
 export const AboutSection = () => {
     return(
